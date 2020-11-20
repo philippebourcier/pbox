@@ -41,5 +41,6 @@ apt -y remove python2.7
 apt -y autoremove
 apt -y install build-essential python3 python3-pip
 pip3 install smbus2 serial RPI.GPIO adafruit-circuitpython-ads1x15 adafruit-circuitpython-tca9548a adafruit-circuitpython-vl6180x
+update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 
 exit 0
